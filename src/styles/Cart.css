@@ -1,0 +1,83 @@
+
+.cart_wrapper{
+    padding: 0px 5px;
+    border-bottom: 2px solid #D4D4D4;;
+}
+.your_cart{
+    width: 100%;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: left;
+}
+
+.added_items_wrapper::-webkit-scrollbar{display: right;}
+
+.added_items_wrapper{
+    margin: 30px 0px;
+    height: 45vh;
+    overflow: scroll;
+}
+
+.subtotal_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    margin: 20px 0px;
+}
+
+.subtotal_text{
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.total_price{
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.whatsapp_btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.whatsapp_btn{
+    width: 247px;
+    height: 46.47px;
+    background: #0F6B00;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+}
+
+.whatsapp_text{
+    width: 144px;
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+
+}

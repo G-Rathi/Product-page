@@ -1,0 +1,67 @@
+.poster_container{
+    height: 202.59px;
+    background: #E7E5FF;
+    padding: 10px 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.store_details{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.store_name{
+    width: 565.92px;
+    height: 62px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    text-align: left;
+}
+
+.street{
+    height: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+.last_detail{
+    width: 282.21px;
+    height: 28.66px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+
+.open{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.distance{
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
