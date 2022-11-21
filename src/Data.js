@@ -27,72 +27,6 @@ const data = [
         price: 72
     },
     {
-        id: 1,
-        image: Carrot,
-        name: 'Carrot (1 Kg)',
-        quantity: 1,
-        price: 40,
-        mrp: '₹50'
-    },
-    {
-        id: 2,
-        image: Apples,
-        name: 'Apple (pack of 4)',
-        quantity: 4,
-        price: 90
-    },
-    {
-        id: 3,
-        image: Eggs,
-        name: 'Egg (1 dozen)',
-        quantity: 12,
-        price: 72
-    },
-    {
-        id: 1,
-        image: Carrot,
-        name: 'Carrot (1 Kg)',
-        quantity: 1,
-        price: 40,
-        mrp: '₹50'
-    },
-    {
-        id: 2,
-        image: Apples,
-        name: 'Apple (pack of 4)',
-        quantity: 4,
-        price: 90
-    },
-    {
-        id: 3,
-        image: Eggs,
-        name: 'Egg (1 dozen)',
-        quantity: 12,
-        price: 72
-    },
-    {
-        id: 1,
-        image: Carrot,
-        name: 'Carrot (1 Kg)',
-        quantity: 1,
-        price: 40,
-        mrp: '₹50'
-    },
-    {
-        id: 2,
-        image: Apples,
-        name: 'Apple (pack of 4)',
-        quantity: 4,
-        price: 90
-    },
-    {
-        id: 3,
-        image: Eggs,
-        name: 'Egg (1 dozen)',
-        quantity: 12,
-        price: 72
-    },
-    {
         id: 4,
         image: Carrot,
         name: 'Carrot (1 Kg)',
@@ -136,6 +70,72 @@ const data = [
         quantity: 12,
         price: 72
     },
+    {
+        id: 10,
+        image: Carrot,
+        name: 'Carrot (1 Kg)',
+        quantity: 1,
+        price: 40,
+        mrp: '₹50'
+    },
+    {
+        id: 11,
+        image: Apples,
+        name: 'Apple (pack of 4)',
+        quantity: 4,
+        price: 90
+    },
+    {
+        id: 12,
+        image: Eggs,
+        name: 'Egg (1 dozen)',
+        quantity: 12,
+        price: 72
+    },
+    {
+        id: 13,
+        image: Carrot,
+        name: 'Carrot (1 Kg)',
+        quantity: 1,
+        price: 40,
+        mrp: '₹50'
+    },
+    {
+        id: 14,
+        image: Apples,
+        name: 'Apple (pack of 4)',
+        quantity: 4,
+        price: 90
+    },
+    {
+        id: 15,
+        image: Eggs,
+        name: 'Egg (1 dozen)',
+        quantity: 12,
+        price: 72
+    },
+    {
+        id: 16,
+        image: Carrot,
+        name: 'Carrot (1 Kg)',
+        quantity: 1,
+        price: 40,
+        mrp: '₹50'
+    },
+    {
+        id: 17,
+        image: Apples,
+        name: 'Apple (pack of 4)',
+        quantity: 4,
+        price: 90
+    },
+    {
+        id: 18,
+        image: Eggs,
+        name: 'Egg (1 dozen)',
+        quantity: 12,
+        price: 72
+    }
 
 ]
 
