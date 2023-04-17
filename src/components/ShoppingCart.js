@@ -18,8 +18,8 @@ const ShoppingCart = () => {
                         return <CartItem item={item} key={index} />
                     })} */}
                     {
-                        Cart.cart.map((item) => {
-                            return <CartItem item={item} key={item.id} />
+                        Cart?.cart?.map((item, index) => {
+                            return <CartItem item={item} key={index} />
                         })
                     }
 
@@ -27,7 +27,7 @@ const ShoppingCart = () => {
             </div>
             <div className='subtotal_wrapper'>
                 <span className='subtotal_text'>Subtotal</span>
-                <span className='total_price'>₹{getTotal(Cart.cart)}</span>
+                <span className='total_price'>₹{getTotal(Cart?.cart)}</span>
             </div>
             <div className='whatsapp_btn_container'>
                 <div className='whatsapp_btn'>

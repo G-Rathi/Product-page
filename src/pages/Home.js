@@ -8,9 +8,19 @@ import data from '../Data'
 import ShoppingCart from '../components/ShoppingCart'
 import ADD from '../components/ADD'
 import Footer from '../components/Footer'
+// import Searchbar from '../components/Searchbar'
+// import { useEffect } from 'react'
+import { useState } from 'react'
 // import { useSelector } from 'react-redux'
 
 const Home = () => {
+    const [filtered, setFiltered] = useState()
+
+    const handleSearch = (e) => {
+        const temp = [...data]
+        const result = temp?.filter(item => item?.name?.toLowerCase()?.includes(((e.target.value)?.toLowerCase())))
+        setFiltered(result)
+    }
     // const Cart = useSelector(state => state.cart)
     return (
         <Fragment>
@@ -25,26 +35,25 @@ const Home = () => {
             </div>
             <div className='searchbar_container'>
                 <div className='searchbar_wrapper'>
-                    <input className='searchbar_text' placeholder='Search for Products or Services'></input>
+                    <input type='search' className='searchbar_text' placeholder='Search for Products or Services' onChange={handleSearch}></input>
                     <div><SVGSearch /></div>
                 </div>
             </div>
-            <div className='items_cart_container'>
+            <div className='items_add_cart_container'>
                 <div className='add_section_container'>
                     <ADD />
                 </div>
                 <div className='items_section_container'>
-                    {data.map((item) => {
-                        return <Item item={item} key={item.id} />
+                    {(filtered || data)?.map((item, index) => {
+                        return <Item item={item} key={index} />
                     })}
-
                 </div>
                 <div className='cart_section_container'>
                     <ShoppingCart />
                 </div>
             </div>
             <Footer />
-        </Fragment >
+        </Fragment>
     )
 }
 

@@ -46,7 +46,7 @@ const CartItem = ({ item }) => {
 
     return (
         <div className='cartItem_wrapper'>
-            <span className='cartItem_name'>{item.name}</span>
+            <span className='cartItem_name'>{item?.name}</span>
             <div className='buttons_input'>
                 <button className='minus_btn btn' onClick={handleMinus}>-</button>
                 <div className='cartItem_input' > {quantity}</div>

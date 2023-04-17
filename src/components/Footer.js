@@ -34,7 +34,8 @@ const Footer = () => {
                     </div>
                     <div className='contact_container' >
                         <h3 className='contact_heading'>CONTACT</h3>
-                        <span className='contact_content'><SVGEmail /> <span> contact@boni.co.in</span></span>
+                        <span className='contact_content'>
+                            <SVGEmail /><span> contact@boni.co.in</span></span>
                         <span className='contact_content'><SVGPhone /> <span> 9019516735</span></span>
                         <span className='contact_content'><SVGLocation /> <span> Boni, 183 G Block, First Floor, East Side, Sahakarnagar Main Road, Sahakara Nagar, Bangalore, 560092</span></span>
                         <span className='contact_content'><SVGWebsite /><span> www.boni.co.in</span></span>

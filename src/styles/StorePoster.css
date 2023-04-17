@@ -6,6 +6,12 @@
     justify-content: space-between;
 }
 
+.store_image_details_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .store_details{
     flex: 3;
     display: flex;
@@ -64,4 +70,22 @@
     display: flex;
     justify-content: space-between;
     align-self: center;
+}
+
+@media screen and (max-width:500px){
+    
+    .poster_container{
+        /* height: 202.59px; */
+        height: 100%;
+        background: #E7E5FF;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .store_image_details_container{
+        width: 100%;
+        font-size: 5px;
+    }
 }

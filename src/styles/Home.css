@@ -80,7 +80,7 @@
 }
 
 .searchbar_text{
-    width: 265px;
+    width: 100%;
     height: 25px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -88,11 +88,14 @@
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.001em;
-    color: #A5A5A5;
+    color: #504f4f;
     border: none;
 }
+.searchbar_text:focus{
+    outline: none;
+}
 
-.items_cart_container{
+.items_add_cart_container{
     display: flex;
     justify-content: space-between;
     padding: 15px 125px 20px 125px;
@@ -118,4 +121,29 @@
 .cart_section_container{
     flex: 1;
     padding: 15px;
+}
+
+@media screen and (max-width:500px){
+    .searchbar_container{
+        padding: 10px 30px;
+    }
+    .items_add_cart_container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        height: 100%;
+    }
+    .add_section_container{
+        margin-top: 20px;
+    }
+    .items_section_container{
+        width: 100%;
+        height: 500px;
+        margin-top: 20px;
+    }
+    .cart_section_container{
+        min-height: 20px;
+        max-height: 100%;
+    }
 }
